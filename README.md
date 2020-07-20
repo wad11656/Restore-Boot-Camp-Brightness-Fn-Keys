@@ -8,7 +8,7 @@ Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabil
 
 So in summary it enables the following on each login:
 
-* `F1`/`F2` brightness keys
+* `F1`/`F2` brightness keys (Credit: [https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter](Qwerty12's LaptopBrightnessSetter))
 * Trackpad - Tap to Click
 * Trackpad - 2-finger Scroll
 * Trackpad - 2-finger right-click
@@ -17,7 +17,7 @@ So in summary it enables the following on each login:
 
 ## How to Use ##
 
-Reboot after install. Each time you log in, Task Scheduler runs the .exe. If the install is compatible in your environment like on mine, the .exe should restore Brightness keyboard keys + trackpad right-click and tap capabilities.
+Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. If the install is compatible in your environment like on mine, the .exe should run a script open **Boot Camp Control Panel** and restore Brightness keyboard keys + trackpad right-click and tap capabilities.
 
 **NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality.
 
