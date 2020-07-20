@@ -9,6 +9,7 @@ Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabil
 So in summary it enables the following on each login:
 
 * `F1`/`F2` brightness keys *(Credit: [qwerty12's LaptopBrightnessSetter](https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter))*
+  * My script makes it so you don't need to press `Fn` + `F1`/`F2`, so functionality is restored to expected behavior (Just press `F1`/`F2`).
 * Trackpad - Tap to Click
 * Trackpad - 2-finger Scroll
 * Trackpad - 2-finger right-click
