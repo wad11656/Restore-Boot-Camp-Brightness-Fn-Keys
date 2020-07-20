@@ -24,7 +24,13 @@ Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. Th
 
 ## Troubleshoot ##
 
-Fetch and install your latest Boot Camp drivers for your hardware using [Campies](https://github.com/fgimian/campies) (a fork of [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4))
+Fetch and install your latest Boot Camp drivers for your hardware using [Campies](https://github.com/fgimian/campies) (a fork of [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4)). You should have a **Boot Camp Control Panel** applet  (launches from `C:\Windows\System32\AppleControlPanel.exe`).
+
+<img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/control.png" width="370">
+
+If your **Boot Camp Control Panel** tabs/buttons looks any different than mine, it's likely my script won't work and the `.ahk` file in my repo would need to be tweaked for your needs:
+
+<img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/1.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/2.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/3.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/4.png" width="370">
 
 ## Requests ##
 
