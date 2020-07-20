@@ -38,7 +38,7 @@ If your **Boot Camp Control Panel** tabs/buttons look any different than mine, i
 
 ## Requests ##
 
-If this is potentially useful to anyone out there, I assume there&#39;s modifications and incompatibilities people would need resolved, so email me or create GitHub requests, or download the AutoHotkey script from the repo and edit it yourself.
+If this is potentially useful to anyone out there, I assume there&#39;s modifications and incompatibilities people would need resolved, so email me or create GitHub Issues, or download the AutoHotkey script from the repo and edit it yourself.
 
 
 2020 Wade Murdock
