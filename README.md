@@ -2,7 +2,7 @@
 
 ## What is it? ##
 
-Application scripted using [AutoHotkey](https://www.autohotkey.com/). Created to restore the `F1`/`F2` brightness hotkeys on MacOS Boot Camp (Apple&#39;s Windows dual boot software) on hardware where their functionality has broken. (My brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10.)
+Application scripted using [AutoHotkey](https://www.autohotkey.com/) created to restore the `F1`/`F2` brightness hotkeys on MacOS Boot Camp (Apple&#39;s Windows dual boot software) on hardware where their functionality has broken. (My brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10.)
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/brightkeys.png" width="370">
 
