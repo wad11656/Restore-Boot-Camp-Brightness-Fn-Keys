@@ -38,7 +38,7 @@ Fetch and install your latest Boot Camp drivers for your hardware using [Campies
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/control.png" width="370">
 
-If your **Boot Camp Control Panel** tabs/buttons look any different than mine, it's likely my script won't work and the [AutoHotkey](https://www.autohotkey.com/) `.ahk` file in my repo would need to be tweaked for your needs:
+If your **Boot Camp Control Panel** layout/options are different than mine, it's likely my script won't work and the [AutoHotkey](https://www.autohotkey.com/) `.ahk` file in my repo would need to be tweaked for your needs:
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/1.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/2.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/3.png" width="370"><img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/4.png" width="370">
 
