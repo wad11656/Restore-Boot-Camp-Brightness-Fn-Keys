@@ -19,7 +19,7 @@ So in summary it enables the following on each login:
 
 Reboot after install. Each time you log in, the .exe should run within a few minutes. This .exe should restore Brightness keyboard keys + trackpad right-click and tap capabilities.
 
-NOTE: Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality.
+**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality.
 
 ## Requests ##
 
