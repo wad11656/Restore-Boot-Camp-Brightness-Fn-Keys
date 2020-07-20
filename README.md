@@ -18,9 +18,13 @@ So in summary it enables the following on each login:
 
 ## How to Use ##
 
-Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. If the install is compatible in your environment like on mine, the .exe should run a script open **Boot Camp Control Panel** and restore Brightness keyboard keys + trackpad right-click and tap capabilities.
+Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. The .exe should run a script that enables the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as `F1`, `F2`, etc. (necessary to make my script work without needing to press the `Fn` key) and restores trackpad capabilities.
 
 **NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality.
+
+## Troubleshoot ##
+
+Fetch and install your latest Boot Camp drivers for your hardware using [Campies](https://github.com/fgimian/campies) (a fork of [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4))
 
 ## Requests ##
 
