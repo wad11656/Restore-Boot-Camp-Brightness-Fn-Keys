@@ -8,7 +8,7 @@ Application scripted using [AutoHotkey](https://www.autohotkey.com/). Created to
 
 Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabilities in **Boot Camp Control Panel** on login to prevent needing to manually enable these settings after every boot. (Not sure if anyone else in the universe even has either of these issues..):
 
-<img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/trackpad.png" width="370">
+<img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/trackpadtab.png" width="370">
 
 So in summary it enables the following on each login:
 
