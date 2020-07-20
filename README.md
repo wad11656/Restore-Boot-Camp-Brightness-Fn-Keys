@@ -6,7 +6,14 @@ Application scripted using [https://www.autohotkey.com/](AutoHotkey). Created to
 
 Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabilities in **Boot Camp Control Panel** on login to prevent needing to manually enable these settings after every boot. (Not sure if anyone else in the universe even has either of these issues..)
 
-Tested on 13&#39;&#39; MacBook Pro Late 2012
+So in summary it enables the following on each login:
+
+* `F1`/`F2` brightness keys
+* Trackpad - Tap to Click
+* Trackpad - 2-finger Scroll
+* Trackpad - 2-finger right-click
+
+*Tested on 13&#39;&#39; MacBook Pro Late 2012*
 
 ## How to Use ##
 
