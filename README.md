@@ -28,7 +28,7 @@ Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. Th
 
 ## Troubleshoot ##
 
-Fetch and install your latest Boot Camp drivers for your hardware using [Campies](https://github.com/fgimian/campies) (a fork of [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4)). You should have a **Boot Camp Control Panel** applet  (launches from `C:\Windows\System32\AppleControlPanel.exe`).
+Fetch and install your latest Boot Camp drivers for your hardware using [Campies](https://github.com/fgimian/campies) (inspired by the original, [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4)). You should have a **Boot Camp Control Panel** applet  (launches from `C:\Windows\System32\AppleControlPanel.exe`).
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/control.png" width="370">
 
