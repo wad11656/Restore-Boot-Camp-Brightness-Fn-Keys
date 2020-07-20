@@ -2,7 +2,7 @@
 
 ## What is it? ##
 
-Created to restore the F1/F2 brightness hotkeys on MacOS Boot Camp (Apple&#39;s Windows dual boot software) on hardware where their functionality has broken. (My brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10.)
+Application scripted using [https://www.autohotkey.com/](AutoHotkey). Created to restore the `F1`/`F2` brightness hotkeys on MacOS Boot Camp (Apple&#39;s Windows dual boot software) on hardware where their functionality has broken. (My brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10.)
 
 Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabilities in **Boot Camp Control Panel** on login to prevent needing to manually enable these settings after every boot. (Not sure if anyone else in the universe even has either of these issues..)
 
