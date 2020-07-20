@@ -13,7 +13,7 @@ Also enables the trackpad&#39;s &quot;Tap to Click&quot; and right-click capabil
 So in summary it enables the following on each login:
 
 * `F1`/`F2` brightness keys *(Credit: [qwerty12's LaptopBrightnessSetter](https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter))*
-  * My script makes it so you don't need to press `Fn` + `F1`/`F2`, so functionality is restored to expected behavior (Just press `F1`/`F2`).
+  * My script makes it so you don't need to press `fn` + `F1`/`F2`, so functionality is restored to expected behavior (Just press `F1`/`F2`).
 * Trackpad - Tap to Click
 * Trackpad - 2-finger Scroll
 * Trackpad - 2-finger right-click
@@ -22,9 +22,9 @@ So in summary it enables the following on each login:
 
 ## How to Use ##
 
-Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. The .exe should run a script that enables the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as `F1`, `F2`, etc. (necessary to make my script work without needing to press the `Fn` key) and restores trackpad capabilities.
+Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. The .exe should run a script that enables the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as `F1`, `F2`, etc. (necessary to make my script work without needing to press the `fn` key) and restores trackpad capabilities.
 
-**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality.
+**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality. (With exception: `PrintScr` is still `fn`+`Shift`+`F11`, still requiring the `fn` key--and no  `⊞Win` key--for example.)
 
 ## Troubleshoot ##
 
