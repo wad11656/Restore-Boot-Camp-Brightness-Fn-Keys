@@ -24,7 +24,7 @@ So in summary it enables the following on each login:
 
 Reboot after install. Each time you log in, **Task Scheduler** runs the .exe. The .exe should run a script that enables the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as `F1`, `F2`, etc. (necessary to make my script work without needing to press the `fn` key) and restores trackpad capabilities.
 
-**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality. (`Shift+[Function Key]` & `Ctl+[Function Key]` hotkeys should still work as expected.)
+**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality. (`Shift+[Function Key]` & `Ctrl+[Function Key]` hotkeys should still work as expected.)
 
 ## Troubleshoot ##
 
