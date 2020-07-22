@@ -28,7 +28,7 @@ Reboot after install. Each time you log in, **Task Scheduler** runs the `.exe`. 
 
 ## How Does it Work/How to Edit? ##
 
-The `.exe` runs a self-contained script that should enable the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as `F1`, `F2`, etc. (necessary to make my script work without needing to press the `fn` key) and restores trackpad capabilities.
+The `.exe` runs a self-contained script that should enable the `F1`/`F2` brightness keys, then opens **Boot Camp Control Panel** and sets function key presses to be interpreted as "vanilla" `F1`, `F2`, `F3` etc. inputs (necessary to make my script work without needing to press the `fn` key) and restores trackpad capabilities.
 
 If you want to tweak it yourself, it's built off an [AutoHotkey](https://www.autohotkey.com/) `.ahk` script which can be found in the repo.
 
