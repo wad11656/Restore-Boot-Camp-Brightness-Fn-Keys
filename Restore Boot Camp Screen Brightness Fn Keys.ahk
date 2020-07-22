@@ -239,6 +239,7 @@ BrightnessSetter_new() {
 
 ; [[[===== Step1 - Open Boot Camp Control Panel =====]]]
 Run control /name Apple.ControlPanel
+Sleep 100
 WinActivate, ahk_exe AppleControlPanel.exe
 WinWaitActive, Boot Camp Control Panel, ,180
 if ErrorLevel
