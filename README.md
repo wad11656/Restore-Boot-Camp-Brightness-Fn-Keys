@@ -22,7 +22,7 @@ So in summary it enables the following on each login:
 
 ## How to Use ##
 
-Reboot after install. Each time you log in, **Task Scheduler** runs the `.exe` that enables the functionality outlined above. (You should see the **Boot Camp Control Panel** pop up briefly while it does its thing.) 
+After install and each time you log in, **Task Scheduler** runs the `.exe` that enables the functionality outlined above. (You should see the **Boot Camp Control Panel** pop up briefly while it does its thing.)
 
 **NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality. (`Shift+[Function Key]` & `Ctrl+[Function Key]` hotkeys should still work as expected.)
 
