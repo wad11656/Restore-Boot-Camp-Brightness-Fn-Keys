@@ -239,13 +239,23 @@ BrightnessSetter_new() {
 
 ; [[[===== Step1 - Open Boot Camp Control Panel =====]]]
 Run control /name Apple.ControlPanel
-Sleep 100
+i := 0
+Step1:
 WinActivate, ahk_exe AppleControlPanel.exe
-WinWaitActive, Boot Camp Control Panel, ,180
+WinWaitActive, Boot Camp Control Panel, ,1
 if ErrorLevel
 {
-    MsgBox, Auto-open Boot Camp control panel timed out
-    return
+    if (i > 19)
+    {
+        MsgBox, Auto-open Boot Camp control panel timed out
+        return
+    }
+    else
+    {
+        i++
+        Sleep, 100
+        Goto, Step1
+    }
 }
 else
 {
