@@ -49,6 +49,9 @@ Source: "C:\Program Files\Restore Boot Camp Screen Brightness Fn Keys\Restore Bo
 Name: "{app}\{#MyUninstallerName}"; Filename: "{app}\Uninstall\unins000.exe"
 ;Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 
+[Registry]
+Root: HKLM; Subkey: "SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"; ValueType: dword; ValueName: "DisableAutomaticRestartSignOn"; ValueData: "00000001"
+
 [Run]
 Filename: "powershell.exe"; \
   Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{tmp}\Restore Boot Camp Screen Brightness Fn Keys.ps1"""; \
