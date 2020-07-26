@@ -1,6 +1,6 @@
 # Restore Boot Camp Screen Brightness Function Keys
 
-**Update 7/25/20:** I recommend [setting up your PC to automatically log in on boot](https://www.cnet.com/how-to/automatically-log-in-to-your-windows-10-pc/). I waited ~30 seconds until entering my password to log in today, and for some reason my app had already been triggered *and* timed out by the time I actually logged in [despite the trigger for this application being "At log on of any user."]
+**Update 7/25/20:** I recommend [setting up your PC to automatically log in on boot](https://www.cnet.com/how-to/automatically-log-in-to-your-windows-10-pc/). I waited ~30 seconds until entering my password to log in today, and for some reason my app had already been triggered *and* timed out by the time I actually logged in, despite the trigger for this application being "At log on of any user." My guess is it's caused by the Windows 10 setting [Automatically finish setting up a PC after an update or restart](https://support.microsoft.com/en-us/help/4027599/windows-10-automatically-finish-setting-up-pc-after-update-restart#:~:text=For%20previous%20versions%20of%20Windows,my%20device%20after%20an%20update).
 
 ## What is it? ##
 
