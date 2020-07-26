@@ -1,6 +1,6 @@
 # Restore Boot Camp Screen Brightness Function Keys
 
-**Update 7/25/20:** I recommend [setting up your PC to automatically log in on boot](https://www.cnet.com/how-to/automatically-log-in-to-your-windows-10-pc/). I waited ~30 seconds until entering my password to log in today, and for some reason the task to configure the Boot Camp Control Panel settings had already been triggered and timed out by the time I actually logged in. (Despite the trigger for this application being "At logon of any user. But that's computers for you...)
+**Update 7/25/20:** I recommend [setting up your PC to automatically log in on boot](https://www.cnet.com/how-to/automatically-log-in-to-your-windows-10-pc/). I waited ~30 seconds until entering my password to log in today, and for some reason the task to configure the Boot Camp Control Panel settings had already been triggered and timed out by the time I actually logged in. (Despite the trigger for this application being "At log on of any user." But that's computers for you, going rogue or not doing what you told them to, despite laying out explicit rules...)
 
 ## What is it? ##
 
