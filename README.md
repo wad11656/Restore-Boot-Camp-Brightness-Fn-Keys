@@ -1,5 +1,7 @@
 # Restore Boot Camp Screen Brightness Function Keys
 
+**Update 7/25/20:** I recommend [setting up your PC to automatically log in on boot](https://www.cnet.com/how-to/automatically-log-in-to-your-windows-10-pc/). I waited ~30 seconds until entering my password to log in today, and for some reason the task to configure the Boot Camp Control Panel settings had already been triggered and timed out by the time I actually logged in. (Despite the trigger for this application being "At logon of any user. But that's computers for you...)
+
 ## What is it? ##
 
 Application scripted using [AutoHotkey](https://www.autohotkey.com/) created to restore the `F1`/`F2` brightness hotkeys on MacOS Boot Camp (Apple&#39;s Windows dual boot software) on hardware where their functionality has broken. (Personally, my brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10...Even though Windows 10 is officially supported on Late 2012 models.)
