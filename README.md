@@ -53,7 +53,7 @@ If your **Boot Camp Control Panel** layout/options are different than mine, it's
 If this is potentially useful to anyone out there, I assume there&#39;s modifications and incompatibilities people would need resolved, so email me or create GitHub Issues, or download the AutoHotkey script from the repo and edit it yourself.
 
 
-2020 Wade Murdock
+2020-2021 Wade Murdock
 
 [https://wadestechtrove.blogspot.com/](https://wadestechtrove.blogspot.com/)
 
