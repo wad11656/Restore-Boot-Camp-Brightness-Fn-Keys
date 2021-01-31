@@ -1,6 +1,6 @@
 # Restore Boot Camp Screen Brightness Function Keys
 
-**Update 1/30/21:** See my configurable non-Boot-Camp/Vanilla Windows installs here: https://github.com/wad11656/BrightKeyMap.
+**Update 1/30/21:** See my configurable version of this app for non-Boot-Camp/Vanilla Windows installs here: https://github.com/wad11656/BrightKeyMap.
 
 ## What is it? ##
 
