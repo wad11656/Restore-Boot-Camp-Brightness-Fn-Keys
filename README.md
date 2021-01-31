@@ -16,7 +16,7 @@ In addition to restoring the brightness keys, this program also enables the trac
 
 So in summary it enables the following on each login:
 
-* `F1`/`F2` brightness keys *(Credit: [qwerty12's LaptopBrightnessSetter](https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter))*
+* `F1`/`F2` brightness keys
   * My script makes it so you don't need to press `fn` + `F1`/`F2` because it changes the function keys setting in **Boot Camp Control Panel**. So, functionality is restored to expected behavior (a.k.a. Just press `F1`/`F2`).
 * Trackpad - Tap to Click
 * Trackpad - 2-finger Scroll
@@ -53,8 +53,11 @@ If your **Boot Camp Control Panel** layout/options are different than mine, it's
 If this is potentially useful to anyone out there, I assume there&#39;s modifications and incompatibilities people would need resolved, so email me or create GitHub Issues, or download the AutoHotkey script from the repo and edit it yourself.
 
 
+
 2020-2021 Wade Murdock
 
 [https://wadestechtrove.blogspot.com/](https://wadestechtrove.blogspot.com/)
 
 wad11656@gmail.com
+
+*(Credit: [qwerty12's LaptopBrightnessSetter](https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter))*
