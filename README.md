@@ -6,7 +6,7 @@
 
 ## What is it? ##
 
-This is an application for Boot Camp users who have already installed their latest MacBook drivers using [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4) and are still having issues retaining their Boot Camp Control Panel settings after reboots and have lost `F1`/`F2` brightness key functionality. It is scripted using [AutoHotkey](https://www.autohotkey.com/). I made it for myself because personally, my brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10...Even though Windows 10 is officially supported on Late 2012 models.
+This is an application for Boot Camp users who have already installed their latest MacBook drivers, including using [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4), and are still having issues retaining their Boot Camp Control Panel settings after reboots and have lost `F1`/`F2` brightness key functionality. It is scripted using [AutoHotkey](https://www.autohotkey.com/). I made it for myself because personally, my brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10...Even though Windows 10 is officially supported on Late 2012 models.
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/brightkeys.png" width="370">
 
