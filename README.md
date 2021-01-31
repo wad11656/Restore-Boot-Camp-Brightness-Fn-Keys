@@ -10,7 +10,7 @@ This is an application for Boot Camp users who have already installed their late
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/brightkeys.png" width="370">
 
-It enables the trackpad&#39;s &quot;Tap to Click&quot; and two-finger "Secondary Click" (a.k.a. right-click) options in **Boot Camp Control Panel** on each login to prevent needing to manually enable these settings after every boot. (Not sure if anyone else in the universe even has either of these issues..):
+This program enables the trackpad&#39;s &quot;Tap to Click&quot; and two-finger "Secondary Click" (a.k.a. right-click) options in **Boot Camp Control Panel** on each login to prevent needing to manually enable these settings after every boot. (Not sure if anyone else in the universe even has either of these issues..):
 
 <img src="https://raw.githubusercontent.com/wad11656/Restore-Boot-Camp-Brightness-Keys/master/README%20Media/trackpadtab.png" width="370">
 
