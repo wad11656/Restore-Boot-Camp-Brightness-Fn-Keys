@@ -1,0 +1,4 @@
+*.ahk linguist-detectable=true
+*.ps1 linguist-detectable=true
+*.rtf linguist-detectable=false
+*.iss linguist-detectable=false
