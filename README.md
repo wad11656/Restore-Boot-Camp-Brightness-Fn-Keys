@@ -1,10 +1,10 @@
 # Restore Boot Camp Screen Brightness Function Keys
 
-**Update 1/30/21:** See my configurable version of this app for non-Boot-Camp/Vanilla Windows installs here: https://github.com/wad11656/BrightKeyMap.
+### _The actual download is in the [Releases](https://github.com/wad11656/Restore-Boot-Camp-Brightness-Keys/releases) page._ ###
+
+See my configurable version of this app for non-Boot-Camp/vanilla Windows installs here: https://github.com/wad11656/BrightKeyMap.
 
 *Boot Camp users, you may also want to have a look at [this post](https://www.reddit.com/r/bootcamp/comments/cesawt/how_to_get_windows_10_1903_working_properly_in/) for fixing Boot Camp drivers.*
-
-### _The actual download is in the [Releases](https://github.com/wad11656/Restore-Boot-Camp-Brightness-Keys/releases) page._ ###
 
 ## What is it? ##
 
