@@ -3,6 +3,7 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#SingleInstance Force
 
 
 ; [[[===== Functions =====]]]
@@ -222,89 +223,79 @@ BrightnessSetter_new() {
 
 ; [[[===== Step1 - Open Boot Camp Control Panel =====]]]
 Run control /name Apple.ControlPanel
-i := 0
-Step1:
+WinWait, Boot Camp Control Panel
+
 WinActivate, ahk_exe AppleControlPanel.exe
-WinWaitActive, Boot Camp Control Panel, ,30
-if ErrorLevel
+
+; [[[===== Step 2 - Set keyboard settings =====]]]
+; ----- Step 2a - Navigate to "Keyboard" tab  ----- 
+ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
+ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
+
+; ----- Step 2b - Set "standard function keys" setting  -----
+; ~ Refresh window ~
+WinHide Boot Camp Control Panel
+WinShow Boot Camp Control Panel
+
+; ~ Set checkbox variables ~
+ControlGet, isChecked1, Checked,, Button1, Boot Camp Control Panel ; Store checked status
+
+; ~ If already checked, uncheck & re-check it ~
+if (isChecked1 = 1) 
 {
-    MsgBox, Auto-open Boot Camp control panel timed out
-    return
+    ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
+    ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
 }
+; ~ If not checked, check it ~
 else
 {
-
-
-    ; [[[===== Step 2 - Set keyboard settings =====]]]
-    ; ----- Step 2a - Navigate to "Keyboard" tab  ----- 
-    ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
-    ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
-
-    ; ----- Step 2b - Set "standard function keys" setting  -----
-    ; ~ Refresh window ~
-    WinHide Boot Camp Control Panel
-    WinShow Boot Camp Control Panel
-
-    ; ~ Set checkbox variables ~
-    ControlGet, isChecked1, Checked,, Button1, Boot Camp Control Panel ; Store checked status
-
-    ; ~ If already checked, uncheck & re-check it ~
-    if (isChecked1 = 1) 
-    {
-        ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
-        ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
-    }
-    ; ~ If not checked, check it ~
-    else
-    {
-        ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
-    }
-  
-
-    ; [[[===== Step 3 - Set trackpad settings =====]]]
-    ; ----- Step 3a - Navigate to "Trackpad" tab  -----
-    ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
-    
-    ; ----- Step 3b - Set checkbox variables -----
-    ; ~ Refresh window ~
-    WinHide Boot Camp Control Panel
-    WinShow Boot Camp Control Panel
-    
-    ; ~ Set checkbox variables ~
-    ControlGet, isChecked2, Checked,, Button2, ahk_exe AppleControlPanel.exe ; Store checked status
-    ControlGet, isChecked7, Checked,, Button7, ahk_exe AppleControlPanel.exe ; Store checked status
-
-    ; ----- Step 3c - Set the "Tap to Click" setting -----
-    ; ~ If already checked, uncheck & re-check it ~
-    if (isChecked2 = 1)
-    {
-        ControlSend, Button2, {Space}, ahk_exe AppleControlPanel.exe
-        ControlSend, Button2, {Space}, ahk_exe AppleControlPanel.exe
-    }
-    ; ~ If not checked, check it ~
-    else
-    {
-        ControlSend, Button2, {Space},ahk_exe AppleControlPanel.exe
-    }
-
-    ; ----- Step 3d - Set the "Secondary Click" setting -----
-    ; ~ If already checked, uncheck & re-check it ~
-    if (isChecked7 = 1)
-    {
-        ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
-        ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
-    }
-    ; ~ If not checked, check it ~
-    else ; If not checked, check it
-    {
-        ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
-    }
-
-
-    ; [[[===== Step 4 - Apply settings =====]]]
-    ControlSend, Button12, {Space}, ahk_exe AppleControlPanel.exe
-    ControlSend, Button10, {Space}, ahk_exe AppleControlPanel.exe
+    ControlSend, Button1, {Space}, ahk_exe AppleControlPanel.exe
 }
+
+
+; [[[===== Step 3 - Set trackpad settings =====]]]
+; ----- Step 3a - Navigate to "Trackpad" tab  -----
+ControlSend, SysTabControl321, {Right}, ahk_exe AppleControlPanel.exe
+
+; ----- Step 3b - Set checkbox variables -----
+; ~ Refresh window ~
+WinHide Boot Camp Control Panel
+WinShow Boot Camp Control Panel
+
+; ~ Set checkbox variables ~
+ControlGet, isChecked2, Checked,, Button2, ahk_exe AppleControlPanel.exe ; Store checked status
+ControlGet, isChecked7, Checked,, Button7, ahk_exe AppleControlPanel.exe ; Store checked status
+
+; ----- Step 3c - Set the "Tap to Click" setting -----
+; ~ If already checked, uncheck & re-check it ~
+if (isChecked2 = 1)
+{
+    ControlSend, Button2, {Space}, ahk_exe AppleControlPanel.exe
+    ControlSend, Button2, {Space}, ahk_exe AppleControlPanel.exe
+}
+; ~ If not checked, check it ~
+else
+{
+    ControlSend, Button2, {Space},ahk_exe AppleControlPanel.exe
+}
+
+; ----- Step 3d - Set the "Secondary Click" setting -----
+; ~ If already checked, uncheck & re-check it ~
+if (isChecked7 = 1)
+{
+    ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
+    ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
+}
+; ~ If not checked, check it ~
+else ; If not checked, check it
+{
+    ControlSend, Button7, {Space}, ahk_exe AppleControlPanel.exe
+}
+
+
+; [[[===== Step 4 - Apply settings =====]]]
+ControlSend, Button12, {Space}, ahk_exe AppleControlPanel.exe
+ControlSend, Button10, {Space}, ahk_exe AppleControlPanel.exe
 
 
 ; [[[===== Function Key Mappings =====]]]
