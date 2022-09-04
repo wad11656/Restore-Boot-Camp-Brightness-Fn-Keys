@@ -4,6 +4,8 @@
 
 *Boot Camp users, you may also want to have a look at [this post](https://www.reddit.com/r/bootcamp/comments/cesawt/how_to_get_windows_10_1903_working_properly_in/) for fixing Boot Camp drivers.*
 
+### _The actual download is in the [Releases](https://github.com/wad11656/Restore-Boot-Camp-Brightness-Keys/releases) page._ ###
+
 ## What is it? ##
 
 This is an application for Boot Camp users who have already installed their latest MacBook drivers, including using [Brigadier](https://github.com/timsutton/brigadier/releases/tag/0.2.4), and are still having issues retaining their Boot Camp Control Panel settings after reboots and have lost `F1`/`F2` brightness key functionality. It is scripted using [AutoHotkey](https://www.autohotkey.com/). I made it for myself because personally, my brightness keys&#39; functionality broke after upgrading Boot Camp from Win7→Win10 (...even though Windows 10 is officially supported on Late 2012 models...).
@@ -28,7 +30,7 @@ So in summary it enables the following on each login:
 
 After install and each time you log in, **Task Scheduler** runs the `.exe` that enables the functionality outlined above. (You should see the **Boot Camp Control Panel** pop up briefly while it does its thing.)
 
-**NOTE:** Press `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use function keys with their standard functionality. (`Shift+[Function Key]` & `Ctrl+[Function Key]` hotkeys should still work as expected.)
+**NOTE:** Try pressing the `⌘+[Function Key]` (a.k.a. `⊞Win+[Function Key]`) to use the brightness and volume function keys with their "function key" functionality. (`Shift+[Function Key]` & `Ctrl+[Function Key]` hotkeys should still work as expected.)
 
 ## How Does it Work/How to Edit? ##
 
@@ -54,7 +56,7 @@ If this is potentially useful to anyone out there, I assume there&#39;s modifica
 
 
 
-2020-2021 Wade Murdock
+2020-2022 Wade Murdock
 
 [https://wadestechtrove.blogspot.com/](https://wadestechtrove.blogspot.com/)
 
