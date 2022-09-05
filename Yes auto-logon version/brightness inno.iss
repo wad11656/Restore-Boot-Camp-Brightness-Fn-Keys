@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Restore Boot Camp Screen Brightness Fn Keys"
-#define MyAppVersion "1.5"
+#define MyAppVersion "1.6 (AutoLogon)"
 #define MyAppPublisher "Wade's Tech Trove"
 #define MyAppURL "https://wadestechtrove.blogspot.com/"
 #define MyAppExeName "Restore Boot Camp Screen Brightness Fn Keys.exe"
@@ -25,13 +25,19 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 InfoBeforeFile=READMEPRE.rtf
 InfoAfterFile=READMEEND.rtf
-OutputBaseFilename=BootCampBrightness-AutoLogon
+OutputBaseFilename="Restore Boot Camp Screen Brightness Fn Keys (AutoLogon)"
 SetupIconFile=brightness.ico
 Compression=lzma
 SolidCompression=yes
 AlwaysRestart=False
 ArchitecturesInstallIn64BitMode=x64
 UninstallFilesDir={app}\Uninstall
+UninstallDisplayIcon={app}\{#MyAppExeName}
+UninstallDisplayName="Restore Boot Camp Screen Brightness Fn Keys"
+
+[Messages]
+SetupAppTitle = Setup - {#MyAppName}
+SetupWindowTitle = Setup - {#MyAppName}
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
