@@ -1,4 +1,4 @@
-# Restore Boot Camp Screen Brightness Fn Keys
+# Restore Boot Camp Brightness Fn Keys
 
 ### _The actual download is on the [Releases](https://github.com/wad11656/Restore-Boot-Camp-Brightness-Keys/releases) page._ ###
 
